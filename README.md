@@ -6,8 +6,8 @@ It's coming up soon.
 
 I know:
 
-HTML
-CSS
-Javascript
-NodeJs
-Chalk
+- HTML
+- CSS
+- Javascript
+- NodeJs
+- Chalk
