@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+:root {
+    --primary: #BA63FF;
+    --secondary: #f50057;
+    --primary-dark: #4b45b2;
+    --secondary-dark: #ab003c;
+    --off-white: #f8f8f8;
+    --white: #ffffff
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    max-width: auto;
+    margin: auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: var(--primary);
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+
+.primary-link {
+   color:white;
+   background-color: var(--primary);
+   text-decoration: none;
+   padding: 0.5rem 1rem;
+   border:1px solid var(--primary);
+   border-radius:0.5rem;
+}
+
+.secondary-link {
+   display: block;
+   color: var(--secondary);
+   text-decoration: none;
+   font-size: 1.1rem;
+   padding: 0.5rem;
+}
+
+
+.nav {
+    padding: 1rem 1rem 0rem 1rem;
+    background-color: var(--primary);
+    color: white;
+    border-top-left-radius: 3.5rem;
+}
+/*
+.nav .active {
+    font-weight: bolder;
+}
+
+.nav .logo {
+    font-weight: bolder;
+    
+}
+
+.nav li {
+    display: inline-block;
+    padding: 0.5rem;
+}
+
+.nav ul {
+    text-align: right;
+}*/
+
+.list-non-bullet{
+    list-style: none;
+}
+
+.list-item-inline{
+    display: inline-block;
+    padding: 0.5rem;
+}
+
+.nav .nav-brand{
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding: 0.2rem ;
+}
+
+.nav ul{
+    text-align: right;
+}
+
+.nav .link{
+    color: white;
+}
+
+.nav .link-active{
+    font-weight: bold;
+}
+
+
+header {
+    padding: 2rem 1rem 2rem 1rem;
+}
+
+header h1 {
+    text-align: center;
+    padding-top: 1rem;
+    color: darkgray
+}
+
+header .hero {
+    border-radius: 2rem;
+    max-width: 300px;
+    height: auto;
+    margin: auto;
+    display: block;
+}
+
+.ow {
+    background-color: var(--off-white);
+    text-align: center;
+}
+
+.wh {
+    background-color: var(--white);
+    text-align: center;
+}
+
+section {
+    padding: 2rem 1rem 2rem 1rem;
+}
+
+
+/** footer **/
+
+footer {
+    padding: 1rem 1rem ;
+    background-color: var(--primary);
+    color: var(--white);
+    border-bottom-right-radius: 3.5rem;
+    text-align: center;
+}
+
+footer a {
+    color: var(--white)
+}
+/*
+footer li {
+    list-style: none;
+    padding: 0.2rem;;
+}
+*/
+.text-m {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+/** Projects Page **/
+
+.projects .date {
+   margin-bottom: -0.7rem;
+   font-size: 0.8rem;
+   
+}
